@@ -28,7 +28,6 @@ export default function App() {
         `https://json-server-mocker-masai.herokuapp.com/cities?_page=${s}&_limit=${e}}`
       )
       .then((res) => {
-        // console.log(res.data)
         setData(res.data);
         setCurrpage(currpage + i);
       });
@@ -44,10 +43,7 @@ export default function App() {
           <th>COUNTRY NAME</th>
           <th>POPULATION</th>
         </tr>
-        {/* 
-            create rows for countries
-
-          */}
+        
         {data.map((e) => {
           return <CityRow key={e.id} {...e} />;
         })}
