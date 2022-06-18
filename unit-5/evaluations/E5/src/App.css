@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.navdiv{
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar{
+  display: flex;
+  background-color: darkgrey;
+  justify-content: space-between;
+}
+.icon{
+  width: 80px;
+}
+#ss{
+
+  font-size: 50px;
+}
