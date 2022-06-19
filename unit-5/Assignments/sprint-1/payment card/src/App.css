@@ -1,0 +1,45 @@
+.card{
+  width: 700px;
+  height: 300px;
+  margin-top: 20px;
+  padding: 3%;
+
+}
+.App{
+  margin: auto;
+}
+.frst{
+  display: flex;
+  justify-content: space-between;
+}
+.img{
+  width:100% ;
+  height: 100%;
+}
+.imdv{
+  width: 10%;
+}
+.dt{
+  font-size: x-large;
+  font-weight: bolder;
+}
+.cs{
+  background-color: black;
+  color: white;
+  width: 30%;
+  height: 15%;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2%;
+}
+.nm{
+  font-size: xxx-large;
+  font-weight: bolder;
+  margin-top: 3%;
+}
+.os{
+  font-size: x-large;
+  font-weight: 700;
+  margin-top: 3%;
+}
